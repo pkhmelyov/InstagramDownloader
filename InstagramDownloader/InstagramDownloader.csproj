@@ -1,7 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>pkhmelyov</Authors>
+    <RepositoryUrl>https://github.com/pkhmelyov/InstagramDownloader</RepositoryUrl>
+    <PackageTags>instagram</PackageTags>
+    <PackageId>pkhmelyov.InstagramDownloader</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
