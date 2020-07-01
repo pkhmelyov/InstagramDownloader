@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDownloader", "InstagramDownloader\InstagramDownloader.csproj", "{2FEFB5A9-7BD2-4943-8485-D762A28AD041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramDownloader", "InstagramDownloader\InstagramDownloader.csproj", "{2FEFB5A9-7BD2-4943-8485-D762A28AD041}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDownloader.Client", "InstagramDownloader.Client\InstagramDownloader.Client.csproj", "{EAD0B981-C1A7-4D4D-9152-5B2EFE8BAAA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstagramDownloader.Client", "InstagramDownloader.Client\InstagramDownloader.Client.csproj", "{EAD0B981-C1A7-4D4D-9152-5B2EFE8BAAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstagramDownloader.Client.Package", "InstagramDownloader.Client.Package\InstagramDownloader.Client.Package.csproj", "{71421445-C88D-4698-905C-2CF6BC5A059E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EAD0B981-C1A7-4D4D-9152-5B2EFE8BAAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD0B981-C1A7-4D4D-9152-5B2EFE8BAAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD0B981-C1A7-4D4D-9152-5B2EFE8BAAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71421445-C88D-4698-905C-2CF6BC5A059E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71421445-C88D-4698-905C-2CF6BC5A059E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71421445-C88D-4698-905C-2CF6BC5A059E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71421445-C88D-4698-905C-2CF6BC5A059E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
